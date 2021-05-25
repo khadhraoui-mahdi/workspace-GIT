@@ -1,0 +1,43 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+    xmlns:th="http://www.thymeleaf.org"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+  
+    <title>Tek-up</title>
+   
+    </div>
+</head>
+<body  class="container">
+  
+      
+  
+
+<h1 class="py-5">TEK-UP White Test </h1>
+<form method="post" th:action="@{/check/test/}" th:object="${request}" class="col card p-3 mb-5">
+    <div class="form-group">
+        <label for="firstName">Student Id</label>
+        <input id="firstName" placeholder="Enter Student Id" required type="text" th:field="*{studentId}"
+               class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label for="lastName">Exam Code</label>
+        <input id="lastName" placeholder="Enter Exam Code" required type="text" th:field="*{examCode}"
+               class="form-control"/>
+    </div>
+    
+    <a th:href="@{/Exams}">Show all exams</a>
+    
+    <input type="submit" class="btn btn-primary" value="submit">
+             
+</form>
+</div>
+</body>

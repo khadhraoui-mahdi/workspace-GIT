@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.3.0 
+Voir <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2021.05.25 à 02:17:21 AM GMT+01:00 
+
+  -->
+  <bindings xmlns:tns="http://www.tekup.de/models/whitetest/models" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="de.tekup.models.whitetest.models"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:StudentRequest">
+      <class ref="de.tekup.models.whitetest.models.StudentRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ExamsRequest">
+      <class ref="de.tekup.models.whitetest.models.ExamsRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:WhiteTestResponse">
+      <class ref="de.tekup.models.whitetest.models.WhiteTestResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Student">
+      <class ref="de.tekup.models.whitetest.models.Student"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Exam">
+      <class ref="de.tekup.models.whitetest.models.Exam"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ExamsDisponibleResponse">
+      <class ref="de.tekup.models.whitetest.models.ExamsDisponibleResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Adress">
+      <class ref="de.tekup.models.whitetest.models.Adress"/>
+    </bindings>
+  </bindings>
+</bindings>
